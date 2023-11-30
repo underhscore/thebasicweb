@@ -1,0 +1,178 @@
+
+body {
+
+background-color: rgb(247, 247, 247)
+
+}
+
+
+* {
+
+margin: 0%;
+padding: 0%;
+
+}
+
+.holder {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: auto;
+margin-right: auto;
+width: 800px;
+margiN-top: 100px;
+
+
+}
+
+.dashone {
+
+text-align: center;
+color: black;
+font-size: 25px;
+}
+
+
+
+.endash {
+
+margin-top: 80px;
+
+}
+
+h1 {
+margin-left: 5px;
+margin-bottom: 25px;
+font-size: 20px;
+color: rgb(255, 147, 80)
+}
+
+h2 {
+
+ font-size: 15px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-left: 20px;
+
+}
+
+p {
+
+font-size: 20px;
+ margin: 15px;
+
+}
+
+/* Card For En Dashes (aka most unoriganized code ever) */
+
+
+.container,.container2 {
+
+width: 270px;
+height: 180px;
+margin-top: 20px;
+margin-left: 20px;
+display: inline-block;
+position: relative;
+left:90px
+}
+
+.card,.card2 {
+
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1s;
+transform-style: preserve-3d;
+backface-visibility: hidden;
+
+}
+
+
+.container:hover > .card,
+.container2:hover > .card2{
+
+cursor: pointer;
+transform: rotateY(150deg);
+
+}
+
+.front, .back,.front2,.back2 {
+
+width: 100%;
+height: 100%;
+position: absolute;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front h1, .front2 h1, .back h1, .back2 h1 {
+
+color: white;
+
+}
+.front,.front2 {
+
+ background-image: linear-gradient(145deg,#f8ff2a -40%,#2ab8ff,#4d29ff);
+ -webkit-background-clip:content-box;
+ color: transparent;
+color: white;
+font-weight: 400;
+text-align: center;
+transform: rotateY(180deg);
+}
+
+.back,.back2 {
+
+ background-image: linear-gradient(145deg,#ff1212,#ff6614);
+ -webkit-background-clip:content-box;
+ color: transparent;
+ color: white;
+ font-weight: 400;
+ text-align: center;
+}
+
+.endashsubtext {
+
+margin-top: 5px;
+
+}
+
+.common {
+
+margin-top: 25px;
+
+}
+
+.dashimg {
+
+width: 750px;
+height: 500px;
+display: flex;
+
+}
+
+.header {
+
+width: 100%;
+position: fixed;
+background-color:gainsboro
+z-index: 3;
+top: 0%;
+}
+
+
+.header-inner{
+
+height: 100%;
+display: flex;
+
+}
+
+.nav-links {
+
+display: flex;
+width: 100%;
+
+}
+
+li {
+ font-size: 20px;
+
+}
